@@ -41,29 +41,10 @@ Students in rural areas often lack awareness of emerging study fields and career
 ### Importance of Proper Guidance
 Proper counseling is crucial in helping students determine the most suitable career paths, which is essential for national development.
 
-## Machine Learning Methods Used
-- KNN
-- Naïve Bayes
-- Decision Tree
-- Support Vector Machine (SVM)
-- Random Forest
-
 ## Data Preprocessing
 Data preprocessing ensures the dataset is accurate and consistent. The dataset contains 9179 samples and 28 columns. The data source link is: [CareerPrediction.csv](https://data.mendeley.com/datasets/5z68cvxssn/1)
-
+## Machine Learning Methods Used
 ## Model Training
-
-### Initial Model Results
-- **KNN**: Train accuracy - 98%, Test accuracy - 97% 
-- **Naïve Bayes**: Train accuracy - 100%, Test accuracy - 99.8%
-- **Decision Tree**: Train accuracy - 100%, Test accuracy - 100% 
-- **SVM**: Train accuracy - 99%, Test accuracy - 98% 
-- **Random Forest**: Train accuracy - 100%, Test accuracy - 100% 
-
-### Revised Model Results
-- **KNN**: Train accuracy - 65%, Test accuracy - 55% 
-- **Naïve Bayes**: Train accuracy - 51.1%, Test accuracy - 50.16%
-- **SVM**: Train accuracy - 55%, Test accuracy - 52% 
 - **Random Forest**: Train accuracy - 97%, Test accuracy - 89% 
 
 ## Conclusion
@@ -71,11 +52,6 @@ The revised model was trained on a dataset with reduced columns to improve its e
 
 ## Web Application
 We have built an web application of this project using the best performing model. This Web application predict students career by asking some skill rating. 
-[Visit The Website](https://huggingface.co/spaces/PankajSadhukhan/career-prediction)
 
-## Contact
-For any questions or further information, please contact:
-- Tuhin Patra
-- Pankaj Sadukhan
 
 Thank you for your interest in the project!
